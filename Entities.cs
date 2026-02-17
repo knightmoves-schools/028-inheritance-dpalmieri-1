@@ -9,7 +9,7 @@ public class Ageable{
 
 public class Company : Ageable{
     private string Name;
-    private string Id;
+    private string TaxId;
     private decimal TaxRate;
 
     public Company(string name, string taxId, int yearEstablished, decimal taxRate) : base(Year){
@@ -21,7 +21,7 @@ public class Company : Ageable{
 
 public class Person : Ageable{
     private string Name;
-    private string Id;
+    private string Ssn;
     private decimal TaxRate;
 
     public Person(string name, string ssn, int birthYear, decimal taxRate) : base(Year){
@@ -33,13 +33,14 @@ public class Person : Ageable{
 
 public class Car : Ageable{
     private string Name;
-    private string Id;
+    private string Vin;
 
     public Car(string model, string vin, int year) : base(Year){
         Name = name;
         Vin = vin;
     }
 }
+
 
 
 
