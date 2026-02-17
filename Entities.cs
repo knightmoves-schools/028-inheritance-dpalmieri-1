@@ -1,7 +1,7 @@
 ﻿namespace knightmoves;
 
 public class Ageable{
-    protected int year = this.year;
+    protected int year;
     protected int Age(int year){
         return DateTime.Now.Year - year;
     }
@@ -42,4 +42,5 @@ public class Car : Ageable{
         Id = vin;
     }
 }
+
 
