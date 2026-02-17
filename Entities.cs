@@ -14,7 +14,7 @@ public class Company : Ageable{
 
     public Company(string name, string taxId, int yearEstablished, decimal taxRate) : base(Year){
         Name = name;
-        Id = taxId;
+        TaxId = taxId;
         TaxRate = taxRate;
     }
 }
@@ -36,10 +36,11 @@ public class Car : Ageable{
     private string Id;
 
     public Car(string model, string vin, int year) : base(Year){
-        Name = model;
-        Id = vin;
+        Name = name;
+        Vin = vin;
     }
 }
+
 
 
 
