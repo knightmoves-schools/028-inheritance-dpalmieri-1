@@ -6,7 +6,7 @@ public class Ageable{
         Year = year;
     }
     protected int Age(){
-        return DateTime.Now.Year - Year;
+        return DateTime.Today.Year - Year;
     }
 }
 
@@ -43,6 +43,7 @@ public class Car : Ageable{
         Vin = vin;
     }
 }
+
 
 
 
