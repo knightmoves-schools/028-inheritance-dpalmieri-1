@@ -26,7 +26,7 @@ public class Person : Ageable{
 
     public Person(string name, string ssn, int birthYear, decimal taxRate) : base(Year){
         Name = name;
-        Id = ssn;
+        Ssn = ssn;
         TaxRate = taxRate;
     }
 }
@@ -40,6 +40,7 @@ public class Car : Ageable{
         Vin = vin;
     }
 }
+
 
 
 
