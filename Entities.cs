@@ -35,14 +35,15 @@ public class Person : Ageable{
 }
 
 public class Car : Ageable{
-    private string Name;
+    private string Model;
     private string Vin;
 
     public Car(string model, string vin, int year) : base(year){
-        Name = name;
+        Model = model;
         Vin = vin;
     }
 }
+
 
 
 
